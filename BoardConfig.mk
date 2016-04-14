@@ -26,5 +26,16 @@ TARGET_OTA_ASSERT_DEVICE := g4,p1,h815
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_h815_defconfig
 
+# Recovery
+TW_THEME := portrait_hdpi
+TW_THEME := portrait_hdpi
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_NO_USB_STORAGE := true
+TW_INCLUDE_CRYPTO := true
+BOARD_SUPPRESS_SECURE_ERASE := true
+RECOVERY_SDCARD_ON_DATA := true
+BOARD_HAS_NO_REAL_SDCARD := true
+TW_SCREEN_BLANK_ON_BOOT := true
+
 # inherit from the proprietary version
 -include vendor/lge/h815/BoardConfigVendor.mk

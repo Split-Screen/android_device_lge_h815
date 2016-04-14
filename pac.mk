@@ -1,12 +1,15 @@
 $(call inherit-product, device/lge/h815/full_h815.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Boot animation
+PAC_BOOTANIMATION_NAME := 1440
+
+# Inherit some common PAC stuff.
+$(call inherit-product, vendor/pac/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/pac/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := cm_h815
+PRODUCT_NAME := pac_h815
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g4" \
