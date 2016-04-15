@@ -24,7 +24,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 24897388544
 TARGET_OTA_ASSERT_DEVICE := g4,p1,h815
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_h815_defconfig
+TARGET_KERNEL_CONFIG := lupus_h815_defconfig
 
 # Recovery
 TW_THEME := portrait_hdpi
