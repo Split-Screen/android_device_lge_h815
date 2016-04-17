@@ -28,7 +28,6 @@ TARGET_KERNEL_CONFIG := lupus_h815_defconfig
 
 # Recovery
 TW_THEME := portrait_hdpi
-TW_THEME := portrait_hdpi
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_NO_USB_STORAGE := true
 TW_INCLUDE_CRYPTO := true
